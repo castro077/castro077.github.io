@@ -12,7 +12,7 @@ const mostrarRespuesta = () => {
 
 // Generar corazones
 const heartsContainer = document.querySelector('.hearts');
-for (let i = 0; i < 50; i++) { // Aumentamos el número de corazones
+for (let i = 0; i < 25; i++) { // Aumentamos el número de corazones
   const heart = document.createElement('span');
   heart.style.left = Math.random() * 100 + 'vw';
   heart.style.animationDuration = Math.random() * 6 + 4 + 's'; // Variamos la duración
